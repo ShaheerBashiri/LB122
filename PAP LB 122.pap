@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="2C85B2371C9C22B3">
+  <PROJECT FORMAT="1.00" NAME="bro" AUTHOR="Steven" CREATED="2022.11.03 08:50:01" MODIFIED="2023.06.26 23:45:11">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="RoboCopy" CREATED="2022.11.03 08:50:05" MODIFIED="2023.06.26 23:45:11">
+        <LAYOUT FORMAT="1.00" COLUMNS="1" ROWS="11">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[RoboCopy]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="108">
+                <TEXT><![CDATA[Quellverzeichnis auswählen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="117">
+                <TEXT><![CDATA[Überprüfung der Auswahl des Quellverzeichnisses]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="110">
+                <TEXT><![CDATA[Zielverzeichnisauswählen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="119">
+                <TEXT><![CDATA[Überprüfung der Auswahl des Zielverzeichnisses]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="112">
+                <TEXT><![CDATA[RoboCopy]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="121">
+                <TEXT><![CDATA[Überprüfung der Ausgabe]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="125">
+                <TEXT><![CDATA[Logfile erstellen]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="123">
+                <TEXT><![CDATA[Process Überprüfung der Logdatei-Erstellung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="10">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="109" FROM="108" TO="117" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="124" FROM="123" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="111" FROM="110" TO="119" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="122" FROM="121" TO="125" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="115" FROM="125" TO="123" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="118" FROM="117" TO="110" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="113" FROM="112" TO="121" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="120" FROM="119" TO="112" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="108" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
